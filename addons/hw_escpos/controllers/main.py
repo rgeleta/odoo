@@ -76,6 +76,15 @@ class EscposDriver(Thread):
 
         printers = usb.core.find(find_all=True, custom_match=FindUsbClass(7))
 
+        # if no printers are found after this step we will take the
+        # first epson or star device we can find.
+        # epson
+        if not printers:
+            printers = usb.core.find(find_all=True, idVendor=0x04b8)
+        # star
+        if not printers:
+            printers = usb.core.find(find_all=True, idVendor=0x0519)
+
         for printer in printers:
             connected.append({
                 'vendor': printer.idVendor,

@@ -4,6 +4,7 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2015
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2015
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2015
 # Marko Happonen <marko.happonen@sprintit.fi>, 2015
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-03 15:25+0000\n"
-"PO-Revision-Date: 2015-09-06 16:51+0000\n"
+"PO-Revision-Date: 2015-09-16 11:56+0000\n"
 "Last-Translator: Kari Lindgren <kari.lindgren@emsystems.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -478,22 +479,22 @@ msgstr ""
 #. module: stock
 #: view:stock.location.route:stock.stock_location_route_form_view
 msgid "Applicable On"
-msgstr ""
+msgstr "Saatavilla"
 
 #. module: stock
 #: field:stock.location.route,product_selectable:0
 msgid "Applicable on Product"
-msgstr ""
+msgstr "Saatavilla tuotteena"
 
 #. module: stock
 #: field:stock.location.route,product_categ_selectable:0
 msgid "Applicable on Product Category"
-msgstr ""
+msgstr "Saatavilla tuoteryhmässä"
 
 #. module: stock
 #: field:stock.location.route,warehouse_selectable:0
 msgid "Applicable on Warehouse"
-msgstr ""
+msgstr "Saatavilla varastossa"
 
 #. module: stock
 #: view:stock.config.settings:stock.view_stock_config_settings
@@ -567,7 +568,7 @@ msgstr "Jälkitoimitus <em>%s</em> <b>on luotu</b>."
 #: code:addons/stock/stock.py:4193
 #, python-format
 msgid "Backorder exists"
-msgstr ""
+msgstr "Jälkitoimituksia olemassa"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_backorder
@@ -604,7 +605,7 @@ msgstr "Isot toimittajat"
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
 msgid "Bring goods to output location before shipping (Pick + Ship)"
-msgstr ""
+msgstr "Tuo tavarat lähtöpaikalle ennen toimitusta (Kerää + Toimita)"
 
 #. module: stock
 #: view:stock.quant.package:stock.view_quant_package_form
@@ -728,14 +729,14 @@ msgstr "Muuta tuotteen määrää"
 #: code:addons/stock/static/src/xml/picking.xml:173
 #, python-format
 msgid "Change destination location"
-msgstr ""
+msgstr "Vaihda määränpäätä."
 
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/xml/picking.xml:169
 #, python-format
 msgid "Change source location"
-msgstr ""
+msgstr "Vaihda lähtöpaikkaa."
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
@@ -928,7 +929,7 @@ msgstr "Luodut siirrot"
 #. module: stock
 #: field:stock.warehouse.orderpoint,procurement_ids:0
 msgid "Created Procurements"
-msgstr ""
+msgstr "Luodut hankinnat"
 
 #. module: stock
 #: field:make.procurement,create_uid:0
